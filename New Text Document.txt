@@ -1,0 +1,16 @@
+//Array Built in Function Demo
+
+import java.util.Array;
+
+public class ArrayCopyDemo{
+
+	public static void main(String[] ags)
+	{
+		int[] arr1={1,2,3};
+		int[] arr2=new int[3];
+		//Copy Array Demo
+		System.arraycopy(arr1,0,arr2,0,3);
+		System.out.println("Second element in Arr2 "+arr2[1]);
+	}
+	
+}
